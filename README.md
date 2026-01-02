@@ -10,6 +10,10 @@ $ cmake --build build --verbose
 
 Git workflow
 
+[Cheat sheet](https://git-scm.com/cheat-sheet)
+
 ```console
-git 
+$ git add <file>
+$ git commit -m 'message'
+$ git push -u origin <branch_name>
 ```
