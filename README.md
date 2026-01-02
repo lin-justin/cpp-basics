@@ -6,6 +6,7 @@ CMake commands (using MSYS2/mingw on Windows)
 ```console
 $ cmake -S . -B build -G Ninja
 $ cmake --build build --verbose
+$ .\build\name_of_executable.exe
 ```
 
 Git workflow
