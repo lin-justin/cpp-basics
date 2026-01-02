@@ -1,6 +1,8 @@
 # cpp-basics
 teaching myself c++ because i need to upskill
 
+[learncpp.com](https://www.learncpp.com/)
+
 CMake commands (using MSYS2/mingw on Windows)
 
 ```console
