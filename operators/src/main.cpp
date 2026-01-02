@@ -20,9 +20,9 @@ of apples and return the following:
 This function should use the conditional operator
 */
 #include <iostream>
-#include <string>
+#include <string_view>
 
-std::string getQuantityPhrase(int n) {
+std::string_view getQuantityPhrase(int n) {
     if(n < 0) {
         return "negative";
     }
@@ -43,7 +43,7 @@ std::string getQuantityPhrase(int n) {
     }
 }
 
-std::string getApplesPluralized(int n) {
+std::string_view getApplesPluralized(int n) {
     return (n == 1) ? "apple" : "apples";
 }
 
